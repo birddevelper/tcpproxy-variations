@@ -33,13 +33,13 @@ https://github.com/ArashPartow/tcpproxy-variations
 
 
 ### COMPILATION
-(1) For a complete build: make clean all
-(2) To strip executables: make strip_bin
+- For a complete build: make clean all
+- To strip executables: make strip_bin
 
 
 ### COMPILER COMPATIBILITY
-(*) GNU Compiler Collection (4.3+)
-(*) Intel® C++ Compiler (9.x+)
-(*) Clang/LLVM (1.1+)
-(*) Microsoft Visual Studio C++ Compiler (8.1+)
+- GNU Compiler Collection (4.3+)
+- Intel® C++ Compiler (9.x+)
+- Clang/LLVM (1.1+)
+- Microsoft Visual Studio C++ Compiler (8.1+)
 
