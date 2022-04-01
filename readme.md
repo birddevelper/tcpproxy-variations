@@ -52,6 +52,12 @@ https://github.com/ArashPartow/tcpproxy-variations
 
 ### How to use 
 
+
+![scenario](http://www.partow.net/images/tcpproxy_server_diagram.png)
+
+
+
+
 A simple scenario is as follows: 
 
 There exists a server at 192.168.0.100 that accepts connections on port 20000, however due to firewall rules external clients can only access a host at 192.168.20.200 on port 8080 (eth0), which coincidentally has access to the 192.168.0 network segment via a second NIC (eth1). A solution for allowing the external clients access to the server is to run the TCP proxy server on the host at 192.168.0.200 with the following configuration:
