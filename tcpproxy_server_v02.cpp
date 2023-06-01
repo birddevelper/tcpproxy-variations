@@ -54,6 +54,7 @@ namespace tcp_proxy
          return upstream_socket_;
       }
 
+      // start the proxy server
       void start(const std::size_t& max_bytes,
                  const std::string& upstream_host, unsigned short upstream_port)
       {
